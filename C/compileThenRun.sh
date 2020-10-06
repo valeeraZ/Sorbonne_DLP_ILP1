@@ -73,7 +73,7 @@ LIBS="-lm"
 DEFS=""
 
 # Nom de l'exécutable produit
-TARGET=$(mktemp /tmp/dlp-$USER-XXXXXXXXXX)
+TARGET=`mktemp "/tmp/dlp-XXXXXXXXXX"`
 
 # Activation du GC, si demandé et trouvé
 if test "x$GC" != "x"; then
@@ -94,7 +94,7 @@ fi
 
 # Compilation et exécution
 if test "x$VERBOSE" != "x"; then
-    echo gcc ${CFLAGS} -o $TARGET -I. -I$DIR $DEFS $C_RUNTIME $OPTS $LIBS
-    echo $TOOL $TARGET
+    echo gcc ${CFLAGS} -o "$TARGET" -I. -I$DIR $DEFS $C_RUNTIME $OPTS $LIBS
+    echo $TOOL "$TARGET"
 fi
-gcc ${CFLAGS} -o $TARGET -I. -I$DIR $DEFS $C_RUNTIME $OPTS $LIBS && $TOOL $TARGET
+gcc ${CFLAGS} -o "$TARGET" -I. -I$DIR $DEFS $C_RUNTIME $OPTS $LIBS && $TOOL $TARGET
