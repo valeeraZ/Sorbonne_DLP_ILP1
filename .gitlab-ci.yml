@@ -16,3 +16,12 @@ ILP1:
   artifacts:
     reports:
       junit: report.xml
+TME1:
+  stage: tme
+  script: >
+  /home/dlp/run.sh -id TME1 -name TME1
+  com.paracamplus.ilp1.ilp1tme1.test.MyInterpreterTest
+  com.paracamplus.ilp1.ilp1tme1.test.MyCompilerTest
+  artifacts:
+    reports:
+      junit: report.xml
