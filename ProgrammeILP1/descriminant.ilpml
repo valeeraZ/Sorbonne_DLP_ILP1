@@ -1,0 +1,9 @@
+let a = 3 and b = 4 and c = 5 in
+    let dis = b*b - 4*a*c in
+        if dis < 0 then
+            "discriminant négatif : aucune racine"
+        else
+            if dis == 0 then
+                "discriminant nul : une seule racine"
+            else
+                "discriminant positif : deux racines"
