@@ -7,3 +7,15 @@ Samples/*.c
 C/HOSTTYPE
 *.class
 *BAK
+/.idea/*
+/C/gc-7.2/*
+/SamplesILP1/*
+*.iml
+/Java/bin/*
+
+
+
+
+
+
+!/.classpath
