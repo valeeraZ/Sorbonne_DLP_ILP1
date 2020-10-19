@@ -9,11 +9,11 @@ ILP_Object
 ilp_program()
 {
 	{
-		ILP_Object	ilptmp1;
-		ILP_Object	ilptmp2;
-		ilptmp1 = ILP_Integer2ILP(44);
-		ilptmp2 = ILP_Integer2ILP(33);
-		return ILP_GreaterThan(ilptmp1, ilptmp2);
+		ILP_Object	ilptmp3;
+		ILP_Object	ilptmp4;
+		ilptmp3 = ILP_Integer2ILP(44);
+		ilptmp4 = ILP_Integer2ILP(33);
+		return ILP_GreaterThan(ilptmp3, ilptmp4);
 	}
 
 }

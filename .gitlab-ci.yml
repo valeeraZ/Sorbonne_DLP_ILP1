@@ -22,6 +22,8 @@ TME1:
     /home/dlp/run.sh -id TME1 -name TME1
     com.paracamplus.ilp1.ilp1tme1.test.MyInterpreterTest
     com.paracamplus.ilp1.ilp1tme1.test.MyCompilerTest
+    com.paracamplus.ilp1.ilp1tme1.test.ASTsequenceTest
+    com.paracamplus.ilp1.ilp1tme1.test.NewInterpreterTest
   artifacts:
     reports:
       junit: report.xml

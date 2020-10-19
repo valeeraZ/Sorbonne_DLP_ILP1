@@ -9,9 +9,9 @@ ILP_Object
 ilp_program()
 {
 	{
-		ILP_Object	ilptmp4;
-		ilptmp4 = ILP_TRUE;
-		if (ILP_isEquivalentToTrue(ilptmp4)) {
+		ILP_Object	ilptmp8;
+		ilptmp8 = ILP_TRUE;
+		if (ILP_isEquivalentToTrue(ilptmp8)) {
 			return ILP_String2ILP("yes");
 
 		} else {

@@ -10,9 +10,9 @@ ILP_Object
 ilp_program()
 {
 	{
-		ILP_Object	ilptmp3;
-		ilptmp3 = ILP_String2ILP("i m wenzhuo");
-		return ILP_print(ilptmp3);
+		ILP_Object	ilptmp6;
+		ilptmp6 = ILP_String2ILP("i m wenzhuo");
+		return ILP_print(ilptmp6);
 	}
 
 }
