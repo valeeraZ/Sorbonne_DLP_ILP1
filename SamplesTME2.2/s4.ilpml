@@ -1,0 +1,2 @@
+let x = true and y = false in
+    x & y

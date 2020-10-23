@@ -16,7 +16,7 @@ import java.io.StringWriter;
 import java.util.Collection;
 
 public class InterpreterTest extends com.paracamplus.ilp1.interpreter.test.InterpreterTest {
-    protected static String[] samplesDirName = { "SamplesTME1"};
+    protected static String[] samplesDirName = { "SamplesTME2.2"};
     public InterpreterTest(File file) {
         super(file);
     }
