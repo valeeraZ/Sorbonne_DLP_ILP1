@@ -9,7 +9,7 @@ C/HOSTTYPE
 *BAK
 /.idea/*
 /C/gc-7.2/*
-/SamplesILP1/*
+/Samples*/*.c
 *.iml
 /Java/bin/*
 
