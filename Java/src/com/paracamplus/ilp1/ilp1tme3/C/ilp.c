@@ -125,6 +125,17 @@ struct ILP_Class ILP_object_String_class = {
            ILP_classOf } } }
 };
 
+struct ILP_Class ILP_object_Vector_class = {
+     &ILP_object_Class_class,
+     { { &ILP_object_Object_class,
+         "Vector",
+         0,
+         NULL,
+         2,
+         { ILP_print,
+           ILP_classOf } } }
+};
+
 struct ILP_Class ILP_object_Exception_class = {
      &ILP_object_Class_class,
      { { &ILP_object_Object_class,

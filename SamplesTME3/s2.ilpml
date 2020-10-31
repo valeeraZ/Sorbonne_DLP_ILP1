@@ -1,0 +1,2 @@
+let v = makeVector(5,"a") in
+    vectorLength(v);

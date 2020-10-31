@@ -11,6 +11,7 @@ public class Compiler extends com.paracamplus.ilp1.compiler.Compiler {
                 + "#include <stdlib.h> \n"
                 + "#include <math.h> \n"
                 + "#include \"ilp_sinus.h\" \n"
+                + "#include \"ilp_vector.h\" \n"
                 + "#include \"ilp.h\" \n\n";
     }
 

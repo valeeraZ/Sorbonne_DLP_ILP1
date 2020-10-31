@@ -1,0 +1,3 @@
+let e = "a" in
+    let v = makeVector(5, e) in
+        vectorGet(v, 3)
